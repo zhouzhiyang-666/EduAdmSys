@@ -1,0 +1,1 @@
+cmd /k "cd /d D:\software\ResidServer\Redis-x64-3.2.100 (1)&&redis-server.exe"

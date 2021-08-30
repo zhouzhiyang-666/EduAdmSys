@@ -1,0 +1,36 @@
+{
+  "name": "edumanage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.10.0",
+    "element-ui": "^2.13.0",
+    "file-saver": "^2.0.5",
+    "vue": "^2.6.12",
+    "vue-cookies": "^1.7.4",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-plugin-component": "^1.1.1",
+    "js-md5": "^0.7.3",
+    "mockjs": "^1.1.0",
+    "qs": "^6.10.1",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
