@@ -1,0 +1,54 @@
+------------已完成转接Django的ORM
+mysql表名               ORM操作表名
+tbl_admin		models.Admin
+tbl_student	models.Student	完成外键转换stu_class,stu_dpt
+tbl_teacher	Teacher		完成外键转换tea_dpt
+tbl_term		Term		无外键
+tbl_checkcode	CheckCode	无外键
+tbl_course	Course		完成外键转换crs_dpt
+tbl_class		TblClass		完成外键转换class_dpt
+tbl_spot		Spot		无外键
+tbl_acitive		Active		完成外键转换  name转term学期表
+tbl_department	Department	无外键
+tbl_tea_crs	TeaCrs		完成外键转换①term获取学期表,②crs_no，获取course表，③spot，获取spot表上课地点④tea_no获取老师表
+logging		Logging		无外键
+permission	Permission	无外键
+role		Role		无外键
+role_permision	RoleToPermission	完成外键rid,pid
+user_role                 UserRole                  外键转换①rid,获role表②uid获teacher表
+tbl_score		Score		完成外键转换①stu_no获取学生表②tea_crs_no获取tea_crs表
+--------------
+
+添加测试数据
+学生：
+2017324120
+卢本伟
+特斯拉高级中学
+550219990606556626
+13692668668
+
+添加老师
+20011122
+金钟国
+550226199906065577
+13695596682
+
+20011121
+金钟国
+550226199906065577
+13695596682
+
+添加班级
+
+
+excel表教学楼区选择项目
+0101-教学楼A区-A101,0102-教学楼A区-A102,0103-教学楼A区-A103,0104-教学楼A区-A201,0105-教学楼A区-A202,0201-教学楼B区-B101,0202-教学楼B区-B102,0301-第一实验楼-401,0302-第一实验楼-402,0303-第一实验楼-501
+
+学期选择项目
+2015-2016第一学年-20152,第二学年-20161,2016-2017第一学年-20162,第二学年-20171,2017-2018第一学年-20172,第二学年-20181,2018-2019第一学年-20182,第二学年-20191,2019-2020第一学年-20192,第二学年-20201,2020-2021第一学年-20202,第二学年-20211,2021-2022第一学年-20212,第二学年-20221
+
+学院选择项目
+01-文学院,02-经管院,03-外语院,04-物理院,05-化学院,06-数学院,07-生科院,08-体育院,09-音乐院,10-美术院,11-计算机院
+
+年级
+2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030
